@@ -1,0 +1,19 @@
+{
+  "name": "pouchdb-replication-perf-regres-test",
+  "version": "1.0.0",
+  "description": "Test for PouchDB #5199 See https://github.com/pouchdb/pouchdb/pull/5199",
+  "main": "index.js",
+  "dependencies": {
+    "pouchdb": "5.3.2",
+    "express": "4.13.4",
+    "pouchdb-express-router": "0.0.8",
+    "chai": "3.5.0",
+    "mocha": "2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test.replication_perf_regression.js"
+  },
+  "author": "Dale Harders <daleharders@gmail.com>",
+  "license": "MIT"
+}
