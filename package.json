@@ -12,7 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha test.replication_perf_regression.js"
+    "test": "mocha test.replication_perf_regression.js",
+    "toggleFix": "node toggleFix.js"
   },
   "author": "Dale Harders <daleharders@gmail.com>",
   "license": "MIT"
