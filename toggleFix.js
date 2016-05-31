@@ -15,7 +15,7 @@ fs.readFile(pouchFile, 'utf8', function (err, data) {
         console.log('\n', oldFix, '-->', '\n', newFix);
         result = data.replace(new RegExp(escapeRegExp(oldFix), 'g'), newFix);
     } else {
-        console.log('\n', 'Removing #5199 fix to ', pouchFile);
+        console.log('\n', 'Removing #5199 fix from ', pouchFile);
         console.log('\n', newFix, '-->', '\n', oldFix);
         result = data.replace(new RegExp(escapeRegExp(newFix), 'g'), oldFix);
     }
